@@ -124,11 +124,27 @@ body{
     justify-content: space-between;
 }
 
+@media (min-width: 768px){
+    #menu ul{
+        flex-direction: row;
+    }
+}
+
 #menu ul li{
     /* float: left;
     line-height: 44px;
     border-right: 1px solid #d6d6d6; */
     padding: .5rem;
+    width: 95%;
+    text-align: center;
+}
+@media (min-width: 768px){
+    #menu ul li{
+        width: auto;
+    }
+}
+#menu ul li:hover{
+    background-color: #680468;
 }
 
 #menu ul li a{
@@ -137,11 +153,6 @@ body{
     padding-right: 10px;
     font-size: 15px;
     color: white;
-}
-
-#menu ul li a:hover{
-    /*  background: linear-gradient(to bottom, #f2f2f2 0px, #dad9da 100%); */
-    background-color: #680468;
 }
 
 /*Contenido*/
@@ -159,10 +170,14 @@ body{
     */
     width: 85%;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    
+}
+@media (min-width: 768px){
+    #contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 /*Barra lateral*/
@@ -177,6 +192,11 @@ body{
     Estilos Movil First
     */
     width: 100%;
+}
+@media (min-width: 768px){
+    #sidebar{
+        flex: 0 0 calc(30% - 3rem);
+    }
 }
 
 .bloque{
@@ -262,7 +282,14 @@ input[type="submit"],
 
     Estilos Movil First
     */
-    width: 100%;
+    background-color: white;
+    padding: 3rem 2rem;
+    margin-bottom: 3rem;
+}
+@media (min-width: 768px){
+    #principal{
+        flex: 0 0 calc(70% - 3rem);
+    }
 }
 
 #principal a{
