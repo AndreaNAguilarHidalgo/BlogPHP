@@ -112,19 +112,37 @@ body{
 
 /*Contenido*/
 #contenedor{
+    /*
+    ------ Estilos para IE6 -------
     width: 85%;
     height: auto;
     margin: 0px auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    -------------------------------
+
+    Estilos Movil First
+    */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
     
 }
 
 /*Barra lateral*/
 #sidebar{
+    /*
+    ------ Estilos para IE6 -------
     float: right;
     width: 27%;
     height: auto;
+    -------------------------------
+    
+    Estilos Movil First
+    */
+    width: 100%;
 }
 
 .bloque{
@@ -195,6 +213,8 @@ input[type="submit"],
 
 /*Principal*/
 #principal{
+    /* 
+    -------- Estilos IE6 ----------
     float: left;
     width: 65%;
     min-height: 572px;
@@ -204,6 +224,11 @@ input[type="submit"],
     margin-left: 20px;
     overflow: hidden;
     padding: 20px;
+    --------------------------------
+
+    Estilos Movil First
+    */
+    width: 100%;
 }
 
 #principal a{
