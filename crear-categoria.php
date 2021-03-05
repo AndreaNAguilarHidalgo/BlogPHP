@@ -1,9 +1,8 @@
 <?php require_once 'includes/redireccion.php'; ?>
 <?php require_once 'includes/cabecera.php'; ?>
-<?php require_once 'includes/lateral.php'; ?>
 
 <!-- CAJA PRINCIPAL -->
-<div id="principal">
+<div class="principal">
     <h1>Crear categorías</h1>
 
     <form action="guardar-categoria.php" method="POST">
@@ -18,5 +17,5 @@
         <input type="submit" value="Guardar" />
     </form>
 </div><!--FIN PRINCIPAL-->
-
+<?php require_once 'includes/lateral.php'; ?>
 <?php require_once 'includes/pie.php';?>

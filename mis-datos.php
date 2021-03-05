@@ -3,7 +3,7 @@
 <?php require_once 'includes/lateral.php'; ?>
 
 <!-- CAJA PRINCIPAL -->
-<div id="principal">
+<div class="principal">
     <h1>Mis datos</h1>
     <!--MOSTRAR ERRORES-->
     <?php if(isset($_SESSION['completado'])): ?>

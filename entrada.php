@@ -8,10 +8,9 @@
 	}
 ?>
 <?php require_once 'includes/cabecera.php'; ?>
-<?php require_once 'includes/lateral.php'; ?>
 
 <!-- CAJA PRINCIPAL -->
-<div id="principal">
+<div class="principal">
 
 	<h1><?=$entrada_actual['titulo']?></h1>
     <a href="categoria.php?id=<?=$entrada_actual['categoria_id']?>">
@@ -29,6 +28,6 @@
 		<a href="borrar-entrada.php?id=<?=$entrada_actual['id']?>" class="boton">Eliminar entrada</a>
     <?php endif; ?>
 </div> <!--fin principal-->
-			
+<?php require_once 'includes/lateral.php'; ?>		
 <?php require_once 'includes/pie.php'; ?>
             

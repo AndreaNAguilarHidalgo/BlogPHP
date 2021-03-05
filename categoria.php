@@ -9,10 +9,10 @@
     }
 ?>
 <?php require_once 'includes/cabecera.php';?>
-<?php require_once 'includes/lateral.php';?>
+<?php require_once 'includes/lateral.php';?>	
 
 <!-- CAJA PRINCIPAL -->
-<div id="principal">
+<div class="principal">
 
 	<h1>Entradas de <?=$categoria_actual['nombre']?></h1>
 	
@@ -37,7 +37,6 @@
 	?>
 		<div class="alerta">No hay entradas en esta categoría</div>
 	<?php endif; ?>
-</div> <!--fin principal-->
-			
+</div> <!--fin principal-->	
 <?php require_once 'includes/pie.php'; ?>
             
