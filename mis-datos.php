@@ -1,7 +1,5 @@
 <?php require_once 'includes/redireccion.php'; ?>
 <?php require_once 'includes/cabecera.php'; ?>
-<?php require_once 'includes/lateral.php'; ?>
-
 <!-- CAJA PRINCIPAL -->
 <div class="principal">
     <h1>Mis datos</h1>
@@ -34,5 +32,6 @@
         <?php borrarErrores(); ?>
 
     </div><!--FIN PRINCIPAL-->
+    <?php require_once 'includes/lateral.php'; ?>
 
 <?php require_once 'includes/pie.php';?>

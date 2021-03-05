@@ -1,5 +1,4 @@
 <?php require_once 'includes/cabecera.php';?>
-<?php require_once 'includes/lateral.php';?>
 <!-- CAJA PRINCIPAL -->
 <div class="principal">
     <h1>Ultimas entradas</h1>
@@ -28,4 +27,5 @@
             <a href="entradas.php">Ver todas las entradas</a>
         </div>
 </div><!--FIN PRINCIPAL-->
+<?php require_once 'includes/lateral.php';?>
 <?php require_once 'includes/pie.php';?>
