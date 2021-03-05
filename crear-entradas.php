@@ -1,9 +1,8 @@
 <?php require_once 'includes/redireccion.php'; ?>
 <?php require_once 'includes/cabecera.php'; ?>
-<?php require_once 'includes/lateral.php'; ?>
 
 <!-- CAJA PRINCIPAL -->
-<div id="principal">
+<div class="principal">
     <h1>Crear Entradas</h1>
 
     <form action="guardar-entrada.php" method="POST">
@@ -41,5 +40,5 @@
     </form>
     <?php borrarErrores();?>
 </div><!--FIN PRINCIPAL-->
-
+<?php require_once 'includes/lateral.php'; ?>
 <?php require_once 'includes/pie.php';?>

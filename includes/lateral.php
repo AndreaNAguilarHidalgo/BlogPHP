@@ -1,5 +1,5 @@
 <!-- SIDEBAR -->
-<aside id="sidebar">
+<aside class="sidebar">
 
     <div id="buscador" class="bloque">
         <h3>Buscar</h3>

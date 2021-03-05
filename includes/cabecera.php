@@ -5,21 +5,23 @@
 <html lang="es">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <title>Blog de Videojuegos</title>
+        <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     </head>
     <body>
         <!-- Cabecera -->
-        <header id="cabecera">
+        <header class="cabecera">
             <!-- LOGO -->
-            <div id="logo">
+            <div class="logo">
                 <a href="index.php">
                     Blog de Videojuegos
                 </a>
             </div>
 
             <!-- MENU -->
-            <nav id="menu">
+            <nav class="menu">
                 <ul>
                     <li>
                         <a href="index.php">Inicio</a>
@@ -45,7 +47,6 @@
                     </li>
                 </ul>
             </nav>
-            <div class="clearfix"></div>
         </header>
 
-        <div id="contenedor">
+        <div class="contenedor">
