@@ -3,13 +3,13 @@
 
 <!-- CAJA PRINCIPAL -->
 <div class="principal">
-    <h1>Crear Entradas</h1>
-
-    <form action="guardar-entrada.php" method="POST">
+    <h1>Crear Entradas</h1><br/>
         <p>
             Añade nuevas entradas al Blog para que los usuarios
             puedan leerlas y disfrutar de nuestro contenido.
         </p>
+    <form action="guardar-entrada.php" method="POST">
+
         <br/>
         <p>
             <label for="titulo">Título de la entrada: </label>
@@ -40,8 +40,7 @@
                 ?>
             </select>
             <?php echo isset($_SESSION['errores_entrada']) ? mostrarError($_SESSION['errores_entrada'], 'categoria') : ''; ?>
-        </p>
-
+        </p><br/>
         <input type="submit" value="Guardar" />
     </form>
     <?php borrarErrores();?>
