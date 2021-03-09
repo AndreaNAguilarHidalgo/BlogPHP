@@ -20,6 +20,8 @@
     float: none;
 } */
 
+
+
 body{
     background: url(../img/cubes.png) #f4f4f4;
 }
@@ -30,12 +32,14 @@ body{
     color: white;
     background: green;
     box-shadow: 0px 1px 3px #ccc;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     border-radius: 2px;
+    margin-top: 0.7rem;
 }
 
 .alerta-error{
     background: red;
+    min-width: -webkit-fill-available;
 }
 
 .fecha{
@@ -211,7 +215,7 @@ body{
 }
 
 .bloque h3{
-    margin-bottom: 0.9375rem;
+    margin-bottom: 0.3rem;
 }
 
 #buscador.bloque{
